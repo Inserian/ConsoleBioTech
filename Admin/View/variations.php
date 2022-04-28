@@ -20,7 +20,7 @@
         <select id="product" >
         <?php
 
-       
+        $sql="SELECT * from product where product_id=$pID";
         $result = $conn-> query($sql);
 
         if ($result-> num_rows > 0){
