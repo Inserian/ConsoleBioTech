@@ -28,6 +28,7 @@
         }
       ?>
   </table>
+   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-secondary" style="height:40px" data-toggle="modal" data-target="#myModal">
     Add Size
   </button>
